@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+    <style>
+        .row{
+            margin: 5px;
+        }
+        label{
+            margin-bottom: 5px;
+            width: 100px;
+            text-align: right;
+            padding-right: 5px;
+        }
+        fieldset{
+            margin: 10px;
+            background-color: aliceblue;
+            border-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+
+        <h1>Formulário de Cadastro</h1>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="row">
+                <label>Nome:</label><input type="text" name="nome">
+                <label>E-mail:</label><input type="email" name="email">
+            </div>
+            <div class="row">
+            <label>Telefone:</label><input type="number" name="telefone">
+            <label>Profissão:</label><input type="text" name="profissao">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="row">
+                <label>CEP:</label><input type="text">
+                <label>Endereço:</label><input type="text">
+            </div>
+            <div class="row">
+                <label>Número:</label><input type="text">
+                <label>Complemento:</label><input type="text">
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

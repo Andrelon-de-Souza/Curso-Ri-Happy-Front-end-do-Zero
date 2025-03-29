@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <style>
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0px;
+        }
+
+        nav ul li a{
+            padding: 10px 15px;
+            color: blue;
+            text-decoration: none;
+            border-radius: 10px 0px;
+        }
+
+        nav ul li a:hover{
+            color: white;
+            background-color: blue;
+        }
+
+        blockquote {
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin-left: 0px;
+            border-left: royalblue solid 5px;
+        }
+        article time {
+            font-style: italic;
+        }
+        article q{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="">Item 1</a></li>
+                <li><a href="">Item 2</a></li>
+                <li><a href="tel:+5511944864658">Telefone</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section></section>
+        <section></section>
+
+        <article>
+            <h1>Descoberta de vida em outro planeta</h1>
+            <p>Artigo publicado em <time pubdate>29/03/2025 00:13</time></p>
+            <p>Segundo alunos da DIO, <q cite="https://dio.me ">Este é o melhor curso de HTML que já fizeram</q></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta doloribus pariatur ab temporibus illo eius, et incidunt placeat consequatur, similique distinctio nobis! Magni, incidunt. Odit alias aspernatur reiciendis aperiam.</p>
+            <blockquote cite="https://wikipedia.com">
+                <p>Estrela MArta é referente a uma estrela bem mais velha que nosso Sol</p>
+            </blockquote>
+        </article>
+
+        <aside></aside>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
