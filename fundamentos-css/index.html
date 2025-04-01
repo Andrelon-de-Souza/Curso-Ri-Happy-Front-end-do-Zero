@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de Tags</title>
+    <style>
+        h1 {
+            background-color: darkblue;
+            color: lightgreen;
+        }
+
+        div {
+            background-color: aquamarine;
+            color: darkblue;
+        }
+
+        li {
+            background-color: cadetblue;
+        }
+
+        #boas-vindas {
+            background-color: darkgray;
+            font-size: 20px;
+        }
+
+        #seletor-id {
+            background-color: antiquewhite;
+        }
+
+        .seletor-classe {
+            background-color: burlywood;
+        }
+
+        * {
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        
+        [title="Netflix"] {
+            color: red;
+        }
+
+        [title~="Games"] {
+            color: green;
+        }
+
+        [title|="Prime"] {
+            color: crimson;
+        }
+
+        [href^="http://"] {
+            color: blueviolet;
+        }
+
+        [href$="home"] {
+            color: gold;
+        }
+
+        [href*="udemy"] {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Seletores CSS</h1>
+    <h2 id="boas-vindas">Bem-vindo!</h2>
+
+    <p>No CSS, nós temos os seguinte seletores:</p>
+    
+    <div>
+        <ul>
+            <li>Seletores por <b>Tipo</b></li>
+            <li id="seletor-id">Seletores por <b>ID</b></li>
+            <li class="seletor-classe">Seletores por <b>Classe</b></li>
+            <ul>
+                <li class="seletor-classe">Seletores por <b>Classe</b></li>
+                <li class="seletor-classe">Seletores por <b>Classe</b></li>
+                <li class="seletor-classe">Seletores por <b>Classe</b></li>
+            </ul>
+
+            <li>Seletor <b>Universal</b></li>
+            <li>Seletor de <b>Atributo</b></li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li><a title="Netflix" href="https://www.netflix.com/browse">Netflix</a></li>
+            <li><a title="Youtube" href="http://www.youtube.com/">Youtube</a></li>
+            <li><a title="Epic Games" href="https://store.epicgames.com/pt-BR/">Epic Games</a></li>
+            <li><a title="Spotify" href="http://open.spotify.com/intl-pt#login">Spotify</a></li>
+            <li><a title="Prime-Video" href="https://www.primevideo.com/storefront">Prime Video</a></li>
+            <li><a title="Udemy" href="https://www.udemy.com/">Udemy</a></li>
+            <li><a title="dio" href="https://web.dio.me/home">DIO</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
