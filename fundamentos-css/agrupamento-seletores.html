@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de Seletores</title>
+    <style>
+        #agrup, #subtitulo {
+            background-color: aquamarine;
+        }
+
+        p.explicacao, div {
+            background-color: blue;
+            color: white;
+        }
+
+        [href^=index], [class*=botao] {
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="agrup">Agrupamento de Seletores</h1>
+
+    <h2 id="subtitulo">O que é?</h2>
+
+    <p class="explicacao">Usamos o agrupamento para estilizar mais de uma tag ao mesmo tempo!</p>
+    <div class="agrupamento">Com isso, evitamos de ficar repetindo a mesma caracteristica em varios seletores.</div>
+
+    <br>
+
+    <a href="index.html">Voltar</a>
+
+    <br><br>
+
+    <p>Conseguiu compreender?</p>
+
+    <button class="botao">Entendido</button>
+    
+</body>
+</html>

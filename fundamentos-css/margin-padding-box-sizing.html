@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin, Padding e Box Sizing</title>
+    <style>
+        div {
+            width: 250px;
+            height: 250px;
+            color: white;
+        }
+
+        div#elemento-01{
+            background-color: orangered;
+            margin: auto;
+        }
+
+        #elemento-02 {
+            background-color: purple;
+            margin: inherit;
+        }
+
+        #elemento-03 {
+            background-color: aqua;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+            padding-top: 50px;
+        }
+
+        #elemento-04 {
+            background-color: aquamarine;
+            padding: 30px;
+        }
+
+        #elemento-05 {
+            background-color: brown;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+
+        #elemento-06 {
+            background-color: cadetblue;
+            padding: 30px;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Margin</h1>
+
+    <div id="elemento-01">Elemento 1</div>
+    <div id="elemento-02">Elemento 2</div>
+
+    <br>
+    
+    <h1>Padding</h1>
+    
+    <div id="elemento-03">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam hic, aspernatur quos earum culpa eius commodi fuga fugiat sint itaque voluptatibus pariatur, iste, molestiae corporis voluptatum tempora tempore sapiente in.</div>
+    <div id="elemento-04">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae error natus possimus recusandae? Doloremque, expedita? Exercitationem ab, aliquam blanditiis unde nesciunt, nostrum totam vitae harum similique mollitia, facere vero nemo!</div>
+
+    <br>
+
+    <h1>Box Sizing</h1>
+    
+    <div id="elemento-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam hic, aspernatur quos earum culpa eius commodi fuga fugiat sint itaque voluptatibus pariatur, iste, molestiae corporis voluptatum tempora tempore sapiente in.</div>
+    <div id="elemento-06">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae error natus possimus recusandae? Doloremque, expedita? Exercitationem ab, aliquam blanditiis unde nesciunt, nostrum totam vitae harum similique mollitia, facere vero nemo!</div>
+
+</body>
+</html>

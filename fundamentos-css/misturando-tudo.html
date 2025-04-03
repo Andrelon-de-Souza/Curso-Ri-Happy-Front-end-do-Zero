@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misturando os tipos de Combinandores</title>
+    <style>
+        .fundo-verde span p {
+            background: lightpink;
+        }
+        .fundo-verde span ~ p{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .fundo-verde span + p{
+            background-color: limegreen;
+        }
+        div > p {
+            color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fundo-verde">
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <span>
+        <p>Parágrafo 3</p>
+        <p>Parágrafo 4</p>
+        </span>
+        <p>Parágrafo 5</p>
+        <p>Parágrafo 6</p>
+    </div>
+    
+</body>
+</html>
