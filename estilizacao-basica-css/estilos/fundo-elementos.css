@@ -1,0 +1,106 @@
+div {
+    margin-bottom: 30px;
+}
+#linear {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(green, lightgreen);
+}
+
+#radial {
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(lightblue, blue);
+}
+
+#repeating {
+    width: 300px;
+    height: 300px;
+    background-image: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px);
+}
+
+#url {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/paisagem-por-sol.jpg), url(../imagens/pinguim.jpg);
+}
+
+
+
+
+
+.size {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/pikachu.png), url(../imagens/paisagem-por-sol.jpg);
+}
+
+#cover {
+    background-size: cover;
+}
+
+#contain {
+    background-size: contain;
+}
+
+#valor {
+    background-size: 50%;
+}
+
+#valor-x-y {
+    background-size: 200px 100%;
+}
+
+#camada-x-y {
+    background-size: contain, cover;
+}
+
+
+
+
+.b-repeat {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/pinguim.jpg);
+    border: 2px solid greenyellow;
+    background-size: 120px;
+}
+
+#repeat {
+    background-repeat: repeat;
+}
+
+#repeat-x {
+    background-repeat: repeat-x;
+}
+
+#repeat-y {
+    background-repeat: repeat-y;
+}
+
+#space {
+    background-repeat: space;
+}
+
+#round {
+    background-repeat: round;
+}
+
+#no-repeat {
+    background-repeat: no-repeat;
+}
+
+#eixo-x-y {
+    background-repeat: round space;
+}
+
+
+
+div#position {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/pinguim.jpg);
+    border: 2px solid greenyellow;
+    background-repeat: no-repeat;
+    background-position: center top;
+}

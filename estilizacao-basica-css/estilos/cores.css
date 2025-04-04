@@ -1,0 +1,31 @@
+#pre-definida {
+    color: cadetblue;
+}
+#current-color {
+    color: orange;
+    border: 2px solid currentColor;
+}
+
+#rgb {
+    color: rgb(245, 86, 148);
+}
+
+#rgba {
+    color: rgba(146, 200, 59, 0.7);
+}
+
+#hexa {
+    color: #65d9fe;
+}
+
+#hexa-transparente {
+    color: #8761f878;
+}
+
+#hsl {
+    color: hsl(40, 50%, 60%);
+}
+
+#hsla {
+    color: hsla(260, 80%, 40%, 0.2);
+}

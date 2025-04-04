@@ -1,0 +1,82 @@
+body {
+    height: 200vh;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.attachment {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/pinguim.jpg);
+    border: 2px solid greenyellow;
+    background-size: cover;
+    overflow: auto;
+}
+
+#fixed {
+    background-attachment: fixed;
+}
+
+#scroll {
+    background-attachment: scroll;
+}
+
+#local {
+    background-attachment: local;
+}
+
+
+
+
+.origin {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/pinguim.jpg);
+    border: 10px dashed greenyellow;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+}
+
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+}
+
+
+
+
+.clip {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/pinguim.jpg);
+    border: 10px dashed greenyellow;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+}
+
+#padding-box {
+    background-clip: padding-box;
+}
+
+#border-box {
+    background-clip: border-box;
+}
+
+#content-box {
+    background-clip: content-box;
+}
+
+#text {
+    background-clip: text;
+}

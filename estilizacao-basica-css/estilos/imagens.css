@@ -1,0 +1,30 @@
+div {
+    width: 200px;
+    height: 300px;
+    border: 5px solid green;
+}
+
+.fit {
+    width: 100%;
+    height: 100%;
+}
+
+#contain {
+    object-fit: contain;
+}
+
+#cover {
+    object-fit: cover;
+}
+
+#scale-down {
+    object-fit: scale-down;
+}
+
+
+.position {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
