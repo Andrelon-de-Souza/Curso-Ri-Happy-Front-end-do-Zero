@@ -58,11 +58,12 @@ div {
 .clip {
     width: 300px;
     height: 300px;
-    background-image: url(../imagens/pinguim.jpg);
+    background-image: url(../imagens/paisagem-por-sol.jpg);
     border: 10px dashed greenyellow;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     padding: 30px;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
 }
 
 #padding-box {
@@ -78,5 +79,59 @@ div {
 }
 
 #text {
+    -webkit-background-clip: text;
+    color: transparent;
     background-clip: text;
+}
+
+
+
+
+.blend-mode {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/paisagem-por-sol.jpg);
+    border: 10px dashed greenyellow;
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#multiply {
+    background-color: blue;
+    background-blend-mode: multiply;
+}
+
+#screen {
+    background-color: orange;
+    background-blend-mode: screen;
+}
+
+#overlay {
+    background-color: pink;
+    background-blend-mode: overlay;
+}
+
+
+
+
+.background {
+    width: 300px;
+    height: 300px;
+    border: 10px dashed greenyellow;
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    
+    background: 
+    url(../imagens/pinguim.jpg) /* image */
+    top center / 200px 200px /* position / size */
+    no-repeat /* repeat */
+    fixed /* attachment */
+    padding-box /* origin */
+    content-box /* clip */
+    lightblue /* color */
+    ;
 }
