@@ -1,0 +1,181 @@
+@import url("global.css");
+
+@font-face {
+    font-family: Roboto-1;
+    src: url("../fontes/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-2;
+    src: url(../fontes/Roboto-Italic.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto-2;
+    src: url(../fontes/Roboto-Black.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto-2;
+    src: url(../fontes/Roboto-Thin.ttf);
+    font-weight: lighter;
+}
+
+#ex-1 {
+font-family: fantasy;
+}
+
+#ex-2 {
+    font-family: Roboto-1;
+}
+
+#ex-3 {
+    font-family: Roboto-2;
+    font-weight: lighter;
+}
+
+#ex-4 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Propriedade font-size */
+mark{
+    background-color: lightgreen;
+}
+
+#xx-small {
+    font-size: xx-small;
+}
+
+#x-small {
+    font-size: x-small;
+}
+
+#small {
+    font-size: medium;
+}
+
+#medium {
+    font-size: medium;
+}
+
+#large {
+    font-size: large;
+}
+
+#x-large {
+    font-size: x-large;
+}
+
+#xx-large {
+    font-size: xx-large;
+}
+
+div#style {
+    font-size: 30px;
+}
+
+div p#smaller {
+    font-size: smaller;
+}
+
+div p#larger {
+    font-size: larger;
+}
+
+
+/* Propriedade font-style */
+#normal-s {
+    font-style: normal;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}
+
+
+/* Propriedade font-weight */
+#num-w{
+    font-weight: 600;
+}
+
+#normal-w {
+    font-weight: normal;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+div#weight {
+    font-weight: normal;
+}
+
+div p#lighter {
+    font-weight: lighter;
+}
+
+div p#bolder {
+    font-weight: bolder;
+}
+
+
+/* Propriedade font-variant */
+#caps {
+    font-variant: small-caps;
+}
+
+
+/* Propriedade font-stretch */
+#ultra-condensed {
+    font-stretch: ultra-condensed;
+}
+
+#extra-condensed {
+    font-stretch: extra-condensed;
+}
+
+#semi-condensed {
+    font-stretch: semi-condensed;
+}
+
+#normal-st {
+    font-stretch: normal;
+}
+
+#semi-expanded {
+    font-stretch: semi-expanded;
+}
+
+#expanded {
+    font-stretch: expanded;
+}
+
+#extra-expanded {
+    font-stretch: extra-expanded;
+}
+
+#ultra-expanded {
+    font-stretch: ultra-expanded;
+}
+
+#line-height {
+    line-height: 200%;
+}
+
+#font-1 {
+    font: 20px Arial,Time News Roman;
+}
+
+#font-2 {
+    font: italic small-caps bold 24px/2 Georgia, Serif;
+}

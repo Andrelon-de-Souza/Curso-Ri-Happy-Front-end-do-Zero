@@ -1,0 +1,27 @@
+#none-transform {
+    text-transform: none;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+
+.align {
+    padding: 10px;
+    background-color: lavender;
+    text-align: justify;
+}
+
+#lorem-align {
+    width: 370px;
+    border: 1px solid black ;
+}
