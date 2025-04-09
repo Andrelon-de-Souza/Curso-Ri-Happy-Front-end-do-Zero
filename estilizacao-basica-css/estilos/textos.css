@@ -25,3 +25,146 @@
     width: 370px;
     border: 1px solid black ;
 }
+
+
+h1 + p.decoration {
+    text-decoration: underline wavy red 2px;
+}
+
+#d-line {
+    text-decoration-line: line-through;
+}
+
+#d-style {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+#d-color {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#d-thickness {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+
+.indent + p{
+    text-indent: 50px;
+}
+
+
+.letter + p {
+    letter-spacing: 10px;
+}
+
+.word + p {
+    word-spacing: 10px;
+}
+
+
+.white {
+    width: 200px;
+    background-color: chartreuse;
+}
+
+span {
+    background-color: seagreen;
+}
+
+#normal {
+    white-space: normal;
+}
+
+#nowrap {
+    white-space: nowrap;
+}
+
+#pre {
+    white-space: pre;
+}
+
+#pre-line {
+    white-space: pre-line;
+}
+
+#pre-wrap {
+    white-space: pre-wrap;
+}
+
+#break-spaces {
+    white-space: break-spaces;
+}
+
+
+.wrap {
+    width: 120px;
+    background-color: violet;
+}
+
+#normal {
+    word-wrap: normal;
+}
+
+#break-word {
+    word-wrap: break-word;
+}
+
+.break {
+    width: 120px;
+    background-color: aquamarine;
+}
+
+#normal-b {
+    word-break: normal;
+}
+
+#break-all {
+    word-break: break-all;
+}
+
+#keep-all {
+    word-break: keep-all;
+}
+
+.mode {
+    width: 120px;
+    height: 120px;
+    background-color: lime;
+}
+
+#horizontal-tb {
+    writing-mode: horizontal-tb;
+}
+
+#vertical-rl {
+    writing-mode: vertical-rl;
+}
+
+#vertical-lr {
+    writing-mode: vertical-lr;
+}
+
+.overflow {
+    width: 200px;
+    background-color: chartreuse;
+}
+
+#clip, #ellipsis, #string {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#clip {
+    text-overflow: clip;
+}
+
+#ellipsis {
+    text-overflow: ellipsis;
+}
+
+#string {
+    text-overflow: 'Ver mais >';
+}
