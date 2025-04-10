@@ -1,0 +1,22 @@
+div {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border: 8px solid blueviolet;
+    box-shadow: 10px 10px 20px -3px blueviolet;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(10px 10px 10px gray);
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: chartreuse;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px greenyellow;
+}

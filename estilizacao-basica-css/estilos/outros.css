@@ -1,0 +1,39 @@
+.opacity {
+    background-color: lightblue;
+    border: 5px solid blue;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+
+.overflow {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 5px solid blueviolet;
+    padding: 10px;
+}
+
+#visible {
+    overflow: visible;
+}
+
+#hidden {
+    overflow: hidden;
+}
+
+#scroll {
+    overflow: scroll;
+}
+
+#auto {
+    overflow: auto;
+}
+
+#x-y {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
